@@ -29,7 +29,7 @@
     width:inherit;
   }
   #bg{
-    height: 100%;
+    height: auto;
     width: 102.5%;
   }
   .container{
