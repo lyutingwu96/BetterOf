@@ -356,7 +356,7 @@
       finalResult = 2;
     }else if((ans1 == 3) && (ans2 == 1)){
       resultContainer.innerHTML = "混合性一般膚質";
-      resultDetailContainer.innerHTML ="恭喜妳！</br>妳的皮膚屬於健康的混合性膚質，</br>幾乎沒有敏感症狀。</br>平時應將T字出油部位以及兩頰乾性部位分區保養，</br>並隨季節變化適時更換盒式的保養品。</br></br>讓我們來看看更詳細的保養建議與推薦產品吧！";
+      resultDetailContainer.innerHTML ="恭喜妳！</br>妳的皮膚屬於健康的混合性膚質，</br>幾乎沒有敏感症狀。</br>平時應將T字出油部位以及兩頰乾性部位分區保養，</br>並隨季節變化適時更換合適的保養品。</br></br>讓我們來看看更詳細的保養建議與推薦產品吧！";
       finalResult = 3;
     }else if((ans1 == 3) && (ans2 == 2)){
       resultContainer.innerHTML = "混合性輕微敏感膚質";
