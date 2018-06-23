@@ -186,7 +186,7 @@
 
   const myQuestions2 = [
     {
-      question: "以下敘述若符合你的情況，<br/>請在旁邊打勾",
+      question: "以下敘述若符合你的情況，<br/>請在旁邊打勾(若無症狀可跳過)",
       answers: {
         a: "流汗後肌膚會癢、刺痛",
         b: "一曬到紫外線，肌膚就會發紅、刺痛",
@@ -197,7 +197,7 @@
       correctAnswer: "c"
     },
     {
-      question: "以下敘述若符合你的情況，<br/>請在旁邊打勾",
+      question: "以下敘述若符合你的情況，<br/>請在旁邊打勾(若無症狀可跳過)",
       answers: {
         a: "抹了高保濕美容液，肌膚會癢、刺痛",
         b: "抹了化妝水，肌膚常有刺痛感",
@@ -208,7 +208,7 @@
       correctAnswer: "c"
     },
     {
-      question: "以下敘述若符合你的情況，<br/>請在旁邊打勾",
+      question: "以下敘述若符合你的情況，<br/>請在旁邊打勾(若無症狀可跳過)",
       answers: {
         a: "肌膚總是很粗糙，常脫皮",
         b: "臉上常因壓力或疲勞就長粉刺、痘痘等",
@@ -219,7 +219,7 @@
       correctAnswer: "d"
     },
     {
-      question: "以下敘述若符合你的情況，<br/>請在旁邊打勾",
+      question: "以下敘述若符合你的情況，<br/>請在旁邊打勾(若無症狀可跳過)",
       answers: {
         a: "患有花粉症",
         b: "對尼龍、橡膠、化學纖維等物質過敏",
@@ -356,7 +356,7 @@
       finalResult = 2;
     }else if((ans1 == 3) && (ans2 == 1)){
       resultContainer.innerHTML = "混合性一般膚質";
-      resultDetailContainer.innerHTML ="恭喜妳！</br>妳的皮膚屬於健康的混合性膚質，</br>幾乎沒有敏感症狀。</br>平時應將T字出油部位以及兩頰乾性部位分區保養，</br>並隨季節變化適時更換盒式的保養品。</br></br>讓我們來看看更詳細的保養建議與推薦產品吧！";
+      resultDetailContainer.innerHTML ="恭喜妳！</br>妳的皮膚屬於健康的混合性膚質，</br>幾乎沒有敏感症狀。</br>平時應將T字出油部位以及兩頰乾性部位分區保養，</br>並隨季節變化適時更換合適的保養品。</br></br>讓我們來看看更詳細的保養建議與推薦產品吧！";
       finalResult = 3;
     }else if((ans1 == 3) && (ans2 == 2)){
       resultContainer.innerHTML = "混合性輕微敏感膚質";
